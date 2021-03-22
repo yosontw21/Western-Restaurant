@@ -1,0 +1,51 @@
+.border-radius-50 {
+  border-radius: 50%;
+}
+
+.border-center {
+  width: 110px;
+  height: 1px;
+  background-color: #979797;;
+}
+
+.border-bottom {
+  width: 90px;
+  background-color: $primary;
+  height: 1px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  margin: 10px auto 20px auto;
+}
+
+@include mobile {
+  .border-center {
+    display: none;
+  }
+}
+
+.check-out-border {
+  background-color: $primary;
+  width: 1px;
+  height: 14px;
+  margin: 0 17px 0 15px;
+}
+
+.card-border-shadow {
+  box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.16);
+}
+
+.add-cart-border {
+  border: 2px solid $success;
+  border-radius: 3px;
+}
+
+.card-border-top {
+  border-top: 3px solid $success; 
+}
+
+.input-border {
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  box-shadow: inset 0px 1px 0px 0px #ECECEC;
+  border-radius: 3px;
+}

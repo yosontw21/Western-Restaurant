@@ -1,0 +1,156 @@
+.card {
+  padding: 50px 0;
+}
+
+.card-header {
+  text-align: center;
+  color: $primary;
+  margin-bottom: 31px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    padding: 0 16px;
+  }
+}
+
+@include mobile {
+  .card-header {
+    font-size: 24px;
+  }
+}
+
+.card-group {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.card-group-items {
+  width: 30%;
+  img {
+    display: inline;
+    margin-bottom: 20px;
+  }
+  h3 {
+    margin-bottom: 12px;
+    color: $primary;
+  }
+  p {
+    color: $primary;
+    text-align: left;
+  }
+}
+
+@include mobile {
+  .card-group {
+    display: block;
+  }
+  .card-group-items {
+    width: 100%;
+    margin-bottom: 30px;
+    p {
+      padding-left: 15px;
+    }
+  }
+}
+
+.card-views-body {
+  margin-top: 20px;
+}
+
+.card-views {
+  width: 30%;
+  display: flex;
+  color: $primary;
+  img {
+    margin-bottom: 20px;
+    margin-right: 14px;
+  }
+  h3 {
+    margin-bottom: 22px;
+    text-align: left;
+  }
+  p {
+    text-align: left;
+    margin-bottom: 16px;
+  }
+  p:nth-child(3) {
+    text-align: right;
+  }
+}
+
+@include mobile {
+  .card-views {
+    width: 100%;
+  }
+}
+
+.cart-items {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 26px;
+}
+
+.cart-items li {
+  width: 30%;
+  color: $primary;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  img {
+    margin-bottom: 11px;
+  }
+  h3 {
+    margin-bottom: 4px;
+  }
+}
+
+@include pad {
+  .cart-items li {
+    width: 48%;
+  }
+}
+
+@include mobile {
+  .cart-items {
+    text-align: center;
+  }
+  .cart-items li {
+    width: 98%;
+  }
+  .cart-items li img {
+    width: 100%;
+  }
+}
+
+.add-cart {
+  color: $success;
+  width: 90%;
+  padding: 5px;
+  margin: 0 auto;
+  &:hover {
+    color: #ffffff;
+    background: $success;
+  }
+}
+
+.add-cart span {
+  margin-right: 8px;
+}
+
+.cart-price {
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 13px;
+}
+
+.card-30 {
+  width: 30%;
+}
+
+.card-40 {
+  width: 40%;
+}

@@ -1,0 +1,95 @@
+.body-chef {
+  display: flex;
+  align-items: center;
+}
+
+.body-chef-img {
+  background-image: url('../img/main_chef_brown.png');
+  width: 48%;
+  height: 460px;
+  margin-right: 26px;
+}
+
+.body-chef-text {
+  width: 48%;
+  color: $secondary;
+  margin-right: 30px;
+}
+
+@include mobile {
+  .body-chef {
+    display: block;
+  }
+  .body-chef-img {
+    width: 100%;
+    height: 460px;
+  }
+  .body-chef-text {
+    width: 100%;
+    padding: 30px;
+  }
+  
+}
+
+.header-title {
+  color: $primary;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.booking {
+  display: flex;
+  padding-top: 38px;
+  padding-bottom: 50px;
+}
+
+.map {
+  width: 48%;
+  margin-right: 20px;
+}
+
+.form-list {
+  width: 48%;
+  color: $primary;
+}
+
+.form-items {
+  margin-bottom: 12px;
+  label {
+    margin-bottom: 12px !important;
+  }
+  input {
+    width: 100%;
+    padding: 5px 0px 5px 8px;
+  }
+}
+
+.form-text {
+  margin-bottom: 6px;
+}
+
+.check-yes {
+  margin-right: 36px;
+}
+
+@include mobile {
+  .booking {
+    display: block;
+    padding: 0 15px;
+  }
+  .map {
+    width: 100%;
+    margin-bottom: 30px;
+    height: 386px;
+  }
+  .form-list {
+    width: 100%;
+  }
+  .header-title {
+    margin-bottom: 30px;
+  }
+  .btn-group {
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+}

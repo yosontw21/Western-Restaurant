@@ -1,0 +1,67 @@
+.bg-cover {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bg-position {
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.bg-primary{
+  background: $primary;
+}
+
+.bg-secondary{
+  background: $secondary;
+}
+
+.bg-success{
+  background: $success;
+}
+
+.bg-info{
+  background: $info;
+}
+
+.bg-light{
+  background: $light;
+}
+
+.bg-dark{
+  background: $dark;
+}
+
+.banner {
+  background-image: url('../img/header_desktop.png');
+  height: 420px;
+  background-attachment: fixed;
+}
+
+.banner-content {
+  justify-content: center;
+}
+
+.banner-body {
+  background: rgba(0,0,0,0.35);
+  width: 460px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 0;
+}
+
+.card-group-items img , .card-views img {
+  border-radius: 50%;
+}
+
+.card-group-items img {
+  width: 200px;
+  height: 200px;
+}
+
+.card-views img {
+  width: 67px;
+  height: 67px;
+}

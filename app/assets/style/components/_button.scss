@@ -1,0 +1,41 @@
+.btn-group {
+  text-align: right;
+}
+
+.btn-light {
+  background: $light;
+  color: #ffffff;
+  border: none;
+  padding: 6px 20px;
+  border-radius: 4px;
+  margin-right: 11px;
+}
+
+.btn-success {
+  background: $success;
+  color: #ffffff;
+  border: none;
+  padding: 6px 20px;
+  border-radius: 4px;
+}
+
+
+.btn-group-login {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.res-btn, .lgn-btn {
+  width: 125px;
+  padding: 10px 0;
+  margin: 30px 0 15px 0;
+}
+
+.res-btn-right {
+  justify-content: flex-end;
+}
+
+.btn-group button {
+  cursor: pointer;
+}

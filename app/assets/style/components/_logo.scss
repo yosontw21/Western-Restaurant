@@ -1,0 +1,23 @@
+.logo a {
+  display: block;
+  background-image: url(../img/logo_w.png);
+  background-image: url(../img/logo_w@svg.svg);
+  width: 120px;
+  height: 24px;
+  background-size: contain;
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+}
+
+.ft-logo a {
+  display: block;
+  background-image: url(../img/logo_l.png);
+  background-image: url(../img/logo_l@svg.svg);
+  background-size: contain;
+  width: 245px;
+  height: 49px;
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+}

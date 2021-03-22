@@ -1,0 +1,248 @@
+
+
+.navbar {
+  height: 56px;
+  background: rgba(0,0,0,0.75);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 42px;
+  padding-right: 48px;
+  align-items: center;
+}
+
+.navbar ul {
+  color: #FFFFFF;
+  display: flex;
+}
+
+.navbar li {
+  display: block;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 19px 15px;
+}
+
+.navbar li a:hover {
+  background-color: rgb(92, 102, 110);
+}
+
+.caption {
+  background: rgba(0,0,0,0.35);
+  width: 460px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 70px auto;
+}
+
+.caption h2 {
+  font-size: 36px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.caption p {
+  padding-bottom: 26px;
+  line-height: 1.5;
+}
+
+.caption span {
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+.content {
+  background: #efe9e7;
+}
+
+.sub-title h2 {
+  text-align: center;
+  padding-top: 50px;
+  line-height: 2;
+  color: #3D1101;
+  font-size: 20px;
+}
+
+.intro img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.intro {
+  color: #3D1101;
+  padding-top: 31px;
+}
+
+.intro ul {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.intro h3 {
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.intro li {
+  width: 25%;
+}
+
+.intro li p {
+  text-align: left;
+  line-height: 1.2em;
+}
+
+.chef {
+  background: #3D1101;
+  color: #EFE9E7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.chef-img {
+  background-image: url(../img/main_chef_brown.png);
+  margin-right: 30px;
+  height: 460px;
+  width: 470px;
+}
+
+.chef-info {
+  line-height: 1.2em;
+  max-width: 410px;
+}
+
+.chef-info h2 {
+  font-size: 20px;
+}
+
+.review img {
+  width: 67px;
+  height: 67px;
+  border-radius: 50%;
+}
+
+.review-title {
+  text-align: center;
+  padding: 50px 0;
+  color: #3D1101;
+  font-size: 26px;
+}
+
+.review-info ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.review-info li {
+  display: flex;
+  width: 29.6667%;
+  margin-left: 30px;
+}
+
+.review-content {
+  margin-top: 20px;
+  margin-left: 13px;
+  padding-right: 10px;
+  color: #3D1101;
+}
+
+.review-content h3 {
+  font-size: 18px;
+  margin-bottom: 22px;
+}
+
+.review-content p {
+  line-height: 1.5em;
+  margin-bottom: 16px;
+}
+
+.review-name {
+  text-align: right;
+  margin-bottom: 50px;
+}
+
+.booking {
+  background: #f6f4f3;
+  padding-bottom: 50px;
+}
+
+.booking h2 {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 38px;
+  color: #3D1101;
+  font-size: 26px;
+  line-height: 1.5;
+}
+
+.map-pic {
+  background-image: url(../img/Map.png);
+  height: 388px;
+  width: 462px;
+  margin-right: 20px;
+  margin-left: 42px;
+}
+
+.booking-info {
+  display: flex;
+}
+
+.booking-info p {
+  font-size: 14px;
+  color: #3D1101;
+  padding-bottom: 6px;
+}
+
+.booking-info form {
+  padding-top: 10px;
+}
+
+.booking-info input {
+  width: 420px;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px #ECECEC;
+  border-radius: 3px;
+  background: #FFFFFF;
+}
+
+.booking-info input:focus {
+  border-color: rgba(37, 162, 222, 0.8);
+  box-shadow: 0 0 5px rgba(37, 162, 222, 0.5);
+  outline: none;
+}
+
+.booking-radio-list input {
+  width: 16px;
+  height: 16px;
+}
+
+.booking-btn-list {
+  text-align: right;
+}
+
+.btn-org {
+  border-radius: 3px;
+  background: #F56C23;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 0.8em 1.5em;
+}
+
+.btn-gry {
+  border-radius: 3px;
+  background: rgba(0,0,0,0.35);
+  font-size: 14px;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 0.8em 1.5em;
+}

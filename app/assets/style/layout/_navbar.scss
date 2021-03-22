@@ -1,0 +1,92 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 42px;
+}
+
+@include mobile {
+  .navbar {
+    padding: 20px;
+  }
+}
+
+.navbar ul {
+  display: flex;
+  a {
+    color: #ffffff;
+    display: block;
+    padding: 16px;
+  }
+}
+
+.banner-body {
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 42px 26px 22px;
+  h2 {
+    margin-bottom: 16px;
+  }
+}
+
+.burger-btn {
+  display: none;
+}
+
+@include mobile {
+  .burger-btn {
+    position: absolute;
+    display: block;
+    width: 35px;
+    height: 50px;
+    right: 20px;
+    top: 20px;
+  }
+
+  .burger-btn span {
+    position: absolute;
+    background: #ffffff;
+    border-radius: 5px;
+    height: 5px;
+    width: 100%;
+    left: 0;
+  }
+
+  .burger-btn span:nth-child(1) {
+    top: 0px;
+  }
+  
+  .burger-btn span:nth-child(2) {
+    top: 10px;  
+  }
+  
+  .burger-btn span:nth-child(3) {
+    top: 20px;
+  }
+}
+
+@include mobile {
+  .navbar ul {
+    flex-direction: column;
+    position: absolute;
+    background: rgba(0,0,0,0.90);
+    text-align: center;
+    top: 65px;
+    right: 0;
+    left: 0;
+    height: 0;
+    transition: 0.6s;
+    overflow: hidden;
+    z-index: 10;
+  }
+
+  .navbar-nav a {
+    border-bottom: 1px solid #ffffff;
+  }
+
+  .navbar-nav {
+    height: 245px !important;
+    overflow: hidden;
+  }
+
+}
